@@ -543,3 +543,60 @@ ul a{
 
 }
 
+/*Responsiveness*/
+
+@media(max-width : 600px){
+
+    body{
+        overflow-x:hidden;
+    }
+    .navbar{
+
+        height: 100px;
+    }
+
+    .nav-logo,.nav-address,.nav-address:hover,.nav-search,.nav-cart,.nav-return,.nav-sign,.nav-sign:hover{
+
+        font-size:x-small;
+        width:20.44% ;
+        margin-right: 10px;
+    }
+
+    .panel {
+
+        height:47px;
+    }
+
+   .panel-deals,.panel-deals:hover{
+
+    font-size: 0.84rem;
+    position: relative;
+    left: 45px;
+   }
+
+   .hero-section {
+
+    background-position: center;
+    height: 270px;
+
+    background-repeat: no-repeat;
+    
+   }
+
+   .box{
+
+    width:48.677%;
+   }
+
+.box1-img,.box3-img,.box4-img {
+
+    height: 84%;
+}
+
+.foot-panel2{
+
+    height: 80%;
+    
+}
+}
+
